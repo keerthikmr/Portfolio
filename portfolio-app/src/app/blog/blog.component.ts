@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { BlogCardComponent } from './blog-card/blog-card.component';
+import { BlogListComponent } from './blog-list/blog-list.component';
 
 @Component({
   selector: 'app-blog',
   standalone: true,
-  imports: [BlogCardComponent],
+  imports: [BlogListComponent],
   templateUrl: './blog.component.html',
   styleUrl: './blog.component.css'
 })
