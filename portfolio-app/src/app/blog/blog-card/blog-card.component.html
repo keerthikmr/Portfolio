@@ -1,0 +1,30 @@
+<mat-card class="blog-card">
+
+  <mat-card-header class="mat-card-header">
+    <div class="avatar-image-div">
+      <div mat-card-avatar class="blog-header-image" style="background-image: url('{{image_url}}')"></div>
+    </div>
+    <div class="card-titles">
+      <mat-card-title>{{title}}</mat-card-title>
+
+      <div class="blog-subtitle">
+        <mat-card-subtitle>{{authorName}}</mat-card-subtitle>
+        <mat-card-subtitle>{{dateCreated}}</mat-card-subtitle>
+      </div>
+    </div>
+  </mat-card-header>
+
+  <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Blog article image">
+
+  <mat-card-content class="blog-content">
+    <p>
+      {{content}}
+    </p>
+  </mat-card-content>
+
+  <mat-card-actions class="card-buttons">
+    <button mat-raised-button>LIKE</button>
+    <button mat-raised-button>SHARE</button>
+  </mat-card-actions>
+
+</mat-card>

@@ -1,0 +1,40 @@
+.blog-card {
+  max-width: 400px;
+  height: 550px;
+  margin-left: 1rem;
+  justify-content: space-between;
+}
+
+.avatar-image-div {
+    width: 20%;
+}
+
+.blog-header-image {
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.blog-content {
+    overflow: hidden;
+}
+
+.card-titles {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-left: 1rem;
+}
+
+.mat-card-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.blog-subtitle {
+  display: flex;
+  justify-content: space-between;
+}
+
