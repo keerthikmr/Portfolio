@@ -1,2 +1,9 @@
 
-<app-blog-card></app-blog-card>
+<app-blog-card 
+    *ngFor="let blog of blogs"
+    [title]="blog.title" 
+    [authorName]="blog.authorName"
+    [dateCreated]="blog.dateCreated"
+    [content]="blog.content"
+    [image_url]="blog.image_url"
+></app-blog-card>

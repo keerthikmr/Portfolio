@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button'; 
 
@@ -19,34 +19,39 @@ export class BlogCardComponent {
 
   //date = new Date();
 
-  title: string;
-  authorName: string;
-  dateCreated: string;
-  content: string; 
-  image_url: string;
+  // title: string;
+  // authorName: string;
+  // dateCreated: string;
+  // content: string; 
+  // image_url: string;
 
-  constructor() {
-    this.title = 'adf';
-    this.authorName = 'asdf';
-    this.dateCreated = 'asdf';
-    this.content = 'asdf';
-    this.image_url = 'https://material.angular.io/assets/img/examples/shiba1.jpg';
-  }
+  // constructor() {
+  //   this.title = 'adf';
+  //   this.authorName = 'asdf';
+  //   this.dateCreated = 'asdf';
+  //   this.content = 'asdf';
+  //   this.image_url = 'https://material.angular.io/assets/img/examples/shiba1.jpg';
+  // }
 
-  getTitle(): string {
-    return this.title;
-  }
-  getAuthorName(): string {
-    return this.authorName;
-  }
-  getDate(): string {
-    return this.dateCreated;
-  }
-  getContent(): string {
-    return this.content;
-  }
-  getImageUrl(): string {
-    return this.image_url;
-  }
+  // getTitle(): string {
+  //   return this.title;
+  // }
+  // getAuthorName(): string {
+  //   return this.authorName;
+  // }
+  // getDate(): string {
+  //   return this.dateCreated;
+  // }
+  // getContent(): string {
+  //   return this.content;
+  // }
+  // getImageUrl(): string {
+  //   return this.image_url;
+  // }
+  @Input() title: string = '';
+  @Input() authorName: string = '';
+  @Input() dateCreated: string = '';
+  @Input() content: string = '';
+  @Input() image_url: string = '';
 }
 
