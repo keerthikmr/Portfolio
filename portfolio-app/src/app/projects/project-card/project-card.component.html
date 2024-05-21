@@ -1,0 +1,22 @@
+<mat-card class="blog-card">
+
+  <mat-card-header class="mat-card-header">
+    <div class="avatar-image-div">
+      <div mat-card-avatar class="blog-header-image" style="background-image: url('{{proj_image_url}}')"></div>
+    </div>
+    <div class="card-titles">
+      <mat-card-title>{{title}}</mat-card-title>
+
+      <div class="blog-subtitle">
+        <mat-card-subtitle>{{techStack}}</mat-card-subtitle>
+      </div>
+    </div>
+  </mat-card-header>
+
+  <mat-card-content class="blog-content">
+    <p>
+      {{description}}
+    </p>
+  </mat-card-content>
+
+</mat-card>

@@ -1,0 +1,20 @@
+.project-page {
+  height: 100%;
+  width: 100%;
+}
+
+.project {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.project-head {
+    font-size: 35px;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+}
