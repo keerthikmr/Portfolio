@@ -52,6 +52,7 @@ export class BlogCardComponent {
   @Input() authorName: string = '';
   @Input() dateCreated: string = '';
   @Input() content: string = '';
-  @Input() image_url: string = '';
+  @Input() post_badge_url: string = '';
+  @Input() post_image_url: string = '';
 }
 

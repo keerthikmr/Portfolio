@@ -12,7 +12,7 @@ import { CommonModule } from '@angular/common';
 export class BlogListComponent {
   date = new Date().getDate().toString();
   blogs = [
-    {title: 'Angular Basics', authorName: 'Keerthi Kumar', dateCreated: this.date, content: 'lorem ipsum', image_url: 'https://material.angular.io/assets/img/examples/shiba1.jpg'},
-    {title: '.NET core', authorName: 'Keerthi Kumar', dateCreated: this.date, content: 'lorem ipsum', image_url: 'https://material.angular.io/assets/img/examples/shiba1.jpg'},
+    { title: 'Angular Basics', authorName: 'Keerthi Kumar', dateCreated: this.date, content: 'lorem ipsum', post_image_url: 'https://th.bing.com/th/id/OIP.JWcKdjkJlUbPCu8Z2lKHzgHaH3?rs=1&pid=ImgDetMain', post_badge_url: 'https://logowik.com/content/uploads/images/angular9826.logowik.com.webp' },
+    { title: '.NET core', authorName: 'Keerthi Kumar', dateCreated: this.date, content: 'lorem ipsum', post_image_url: 'https://th.bing.com/th/id/OIP.JWcKdjkJlUbPCu8Z2lKHzgHaH3?rs=1&pid=ImgDetMain', post_badge_url: 'https://logowik.com/content/uploads/images/angular9826.logowik.com.webp' },
   ];
 }
