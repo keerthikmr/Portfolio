@@ -1,6 +1,6 @@
 .blog-card {
   height: 550px;
-  margin-left: 1rem;
+  margin: 0rem .5rem .5rem 0rem;
   justify-content: space-between;
 }
 
