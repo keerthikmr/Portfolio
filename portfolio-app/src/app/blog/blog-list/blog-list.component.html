@@ -1,10 +1,9 @@
-
-<app-blog-card 
-    *ngFor="let blog of blogs"
-    [title]="blog.title" 
-    [authorName]="blog.authorName"
-    [dateCreated]="blog.dateCreated"
-    [content]="blog.content"
-    [post_image_url]="blog.post_image_url"
-    [post_badge_url]="blog.post_badge_url"
-></app-blog-card>
+<section class="blog-list">
+  <app-blog-card *ngFor="let blog of blogs"
+                 [title]="blog.title"
+                 [authorName]="blog.authorName"
+                 [dateCreated]="blog.dateCreated"
+                 [content]="blog.content"
+                 [post_image_url]="blog.post_image_url"
+                 [post_badge_url]="blog.post_badge_url"></app-blog-card>
+</section>

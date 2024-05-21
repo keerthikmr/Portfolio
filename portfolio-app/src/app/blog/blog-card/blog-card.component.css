@@ -1,5 +1,5 @@
 .blog-card {
-  max-width: 400px;
+  /*width: 2%;*/
   height: 550px;
   margin-left: 1rem;
   justify-content: space-between;
@@ -7,6 +7,10 @@
 
 .avatar-image-div {
     width: 20%;
+}
+
+.post-image {
+    height: 50%;
 }
 
 .blog-header-image {
