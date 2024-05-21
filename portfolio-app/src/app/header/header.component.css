@@ -2,8 +2,18 @@
   --header-background-color: aqua;
 }
 
-.header-container {
+/*.header-container {
   background-color: var(--header-background-color);
+}*/
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 ul {
