@@ -12,9 +12,17 @@ import { MatIconModule } from '@angular/material/icon';
   styleUrl: './project-card.component.css'
 })
 export class ProjectCardComponent {
+  @Input() id: number = 0;
   @Input() title: string = '';
   @Input() githubLink: string = '';
   @Input() techStack: string[] = [];
   @Input() proj_image_url: string = '';
   @Input() description: string = '';
+
+  cardClick(githubLink: string) {
+    const w = window.open(githubLink, '_blank');
+    if (w) {
+      w.focus();
+    }
+  }
 }

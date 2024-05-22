@@ -5,11 +5,20 @@
     margin-bottom: 1rem;
 }
 
+.project-card:hover {
+    cursor: pointer;
+}
+
 .proj-image {
-    width: 10%;
-    height: auto;
-    margin: 1rem;
-    background-size: contain;
+  width: 10%;
+  height: auto;
+  margin: 1rem;
+  padding-right: 1rem;
+  background-size: contain;
+}
+
+.proj-img {
+    height: 80%;
 }
 
 .proj-content {
