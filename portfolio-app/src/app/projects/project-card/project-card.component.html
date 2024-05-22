@@ -1,22 +1,29 @@
-<mat-card class="blog-card">
+<mat-card class="project-card">
 
-  <mat-card-header class="mat-card-header">
-    <div class="avatar-image-div">
-      <div mat-card-avatar class="blog-header-image" style="background-image: url('{{proj_image_url}}')"></div>
-    </div>
-    <div class="card-titles">
+  <div mat-card-avatar class="proj-image" style="background-image: url('{{proj_image_url}}')"></div>
+
+  <div class="proj-content">
+
+    <div class="proj-title">
       <mat-card-title>{{title}}</mat-card-title>
-
-      <div class="blog-subtitle">
-        <mat-card-subtitle>{{techStack}}</mat-card-subtitle>
-      </div>
     </div>
-  </mat-card-header>
 
-  <mat-card-content class="blog-content">
-    <p>
-      {{description}}
-    </p>
-  </mat-card-content>
+    <div>
+      <mat-card-subtitle>
+        <span class="stack-element" *ngFor="let stack of techStack">
+          {{stack}}
+        </span>
+      </mat-card-subtitle>
+    </div>
+
+    <div class="proj-desc">
+      <mat-card-content>
+        <p>
+          {{description}}
+        </p>
+      </mat-card-content>
+    </div>
+
+  </div>
 
 </mat-card>

@@ -11,7 +11,7 @@ import { CommonModule } from '@angular/common';
 })
 export class ProjectListComponent {
   projects = [
-    { title: 'Project1', techStack: 'stack1 stack2', description: 'lorem ipsum', githubLink: 'https://logowik.com/content/uploads/images/angular9826.logowik.com.webp', proj_image_url: 'https://www.bing.com/th?id=OIP.o0-_5Yz2Vr32GtIPXUKTLQHaEo&w=157&h=100&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2' },
-    { title: 'Project1', techStack: 'stack1 stack2', description: 'lorem ipsum', githubLink: 'https://logowik.com/content/uploads/images/angular9826.logowik.com.webp', proj_image_url: 'https://www.bing.com/th?id=OIP.o0-_5Yz2Vr32GtIPXUKTLQHaEo&w=157&h=100&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2' },
+    { title: 'Voice Assisted E-commerce Shopping', techStack: ['Python', 'Flask', 'Bs4', 'pttsx3'], description: 'lorem ipsum', githubLink: 'https://logowik.com/content/uploads/images/angular9826.logowik.com.webp', proj_image_url: 'https://www.bing.com/th?id=OIP.o0-_5Yz2Vr32GtIPXUKTLQHaEo&w=157&h=100&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2' },
+    { title: 'Project1', techStack: ['Python', 'Flask', 'Bs4', 'pttsx3'], description: 'A conversational interface that assists with details of products and product comparision with a voice input and output modelA conversational interface that assists with details of products and product comparision with a voice input and output modelproduct comparision with a voice input and output model', githubLink: 'https://logowik.com/content/uploads/images/angular9826.logowik.com.webp', proj_image_url: 'https://www.bing.com/th?id=OIP.o0-_5Yz2Vr32GtIPXUKTLQHaEo&w=157&h=100&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2' },
   ];
 }

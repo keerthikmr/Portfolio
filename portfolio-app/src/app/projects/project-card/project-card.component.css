@@ -1,42 +1,26 @@
-.blog-card {
-  height: 550px;
-  margin: 0rem .5rem .5rem 0rem;
-  justify-content: space-between;
+.project-card {
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    margin-bottom: 1rem;
 }
 
-.avatar-image-div {
-  width: 20%;
+.proj-image {
+    width: 10%;
+    height: auto;
+    margin: 1rem;
+    background-size: cover;
 }
 
-.post-image {
-  height: 50%;
+.proj-content {
+    margin: 1rem 2rem;
 }
 
-.blog-header-image {
-  background-size: cover;
-  height: 100%;
-  width: 100%;
+.proj-desc{
+    height: 50%;
+    overflow: hidden;
 }
 
-.blog-content {
-  overflow: hidden;
-}
-
-.card-titles {
-  display: flex;
-  flex-direction: column;
-  width: 80%;
-  margin-left: 1rem;
-}
-
-.mat-card-header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-bottom: 1rem;
-}
-
-.blog-subtitle {
-  display: flex;
-  justify-content: space-between;
+.stack-element {
+    margin-right: 2rem;
 }
