@@ -9,7 +9,7 @@
     width: 10%;
     height: auto;
     margin: 1rem;
-    background-size: cover;
+    background-size: contain;
 }
 
 .proj-content {
